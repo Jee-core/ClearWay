@@ -26,15 +26,6 @@
 
 ---
 
-## Tech Stack
-
-* **Frontend**: React / HTML / CSS / JS
-* **Backend**: Node.js / Python Flask
-* **Maps & Routing**: Google Maps API / Mapbox
-* **Traffic Data**: Google Traffic API / OpenTraffic
-* **Air Quality Data**: OpenAQ / AQI API
-* **Algorithm**: Custom pathfinding with weighted optimization for traffic and smog
-
 ---
 
 ## Installation & Setup
