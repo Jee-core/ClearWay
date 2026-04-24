@@ -1,11 +1,14 @@
-
 import requests
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 print("Script started...")
 
 url = "https://api.openrouteservice.org/v2/directions/driving-car"
 headers = {
-    "Authorization": "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6Ijg0ZWE0MGFkZmU5ZTRiOThiODRjM2JiOTc2OWYyOTlhIiwiaCI6Im11cm11cjY0In0=",
+    "Authorization": os.getenv('OPENROUTESERVICE_KEY'),
     "Content-Type": "application/json"
 }
 body = {
